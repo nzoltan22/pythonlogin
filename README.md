@@ -1,24 +1,47 @@
-Login System with Python Flask and MySQL
-https://codeshack.io/login-system-python-flask-mysql/?utm_source=chatgpt.com#whatyouwilllearn
+# Bejelentkezési rendszer Python Flask és MySQL segítségével
 
-Requirements
+Arra kerestem megoldást, hogy hogyan lehet Pythonban Flask keretrendszerrel objektumorientáltan, MVC alkalmazásával, MySQL adatbázissal webes alkalmazásokat létrehozni.  
+Mivel interneten csak részmegoldásokat találtam, így ezek felhasználásával készítettem el ezt az alkalmazást.
 
-    Download and install Python, for this tutorial I'll be using Python 3.11.3. Make sure to check the Add Python to PATH option on the installation setup screen.
-    Download and install MySQL Community Server and MySQL Workbench. You can skip this step if you already have a MySQL server installed.
-    Open command line and Install Python Flask with the command: pip install flask
-    Install Flask-MySQLdb with the command: pip install flask-mysqldb
+## Funkciók
 
+Az alkalmazás a következőket tudja:
+- Regisztráció
+- Bejelentkezés
+- A regisztrációkor megadott adatok megtekintése
 
-Virtuális környezet
+## Követelmények
+
+- **Python 3.x**
+- **MySQL**
+- Telepítve legyen a **Python Flask** és **Flask-MySQLdb** csomag
+
+## Telepítés Linuxon
+
+Virtuális környezet létrehozása és aktiválása:
+
+```bash
 python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
+source venv/bin/activate  
+```
+
+Sükséges csomagok telepítése:
+
+```bash
 pip install flask
 pip install flask-mysqldb
+```
 
+Az alkalmazás futtatása:
+
+```bash
 export FLASK_APP=main.py
 export FLASK_DEBUG=1
 flask run
+```
 
+## Az alkalmazás elérhetősége
 
-Virtuális környezet leállítása
+Az elkészült program a következő linken próbálható ki:  
+[https://www.eeeeee.rrrrr/ggggg](https://www.eeeeee.rrrrr/ggggg)
 

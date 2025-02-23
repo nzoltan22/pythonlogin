@@ -39,9 +39,3 @@ export FLASK_APP=main.py
 export FLASK_DEBUG=1
 flask run
 ```
-
-## Az alkalmazás elérhetősége
-
-Az elkészült program a következő linken próbálható ki:  
-[https://www.eeeeee.rrrrr/ggggg](https://www.eeeeee.rrrrr/ggggg)
-
